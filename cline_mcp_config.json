@@ -1,0 +1,38 @@
+{
+  "mcpServers": {
+    "ghidra": {
+      "command": "D:\\ghidra-mcp\\.venv\\Scripts\\python.exe",
+      "args": ["D:\\ghidra-mcp\\server.py"],
+      "env": {
+        "GHIDRA_MCP_INSTALL_DIR": "D:\\ghidra_12.1.3_PUBLIC",
+        "GHIDRA_MCP_JAVA_HOME": "D:\\nd",
+        "GHIDRA_MCP_PROJECTS": "D:\\ghidra-mcp\\projects",
+        "PYTHONIOENCODING": "utf-8",
+        "PYTHONUNBUFFERED": "1"
+      },
+      "disabled": false,
+      "autoApprove": [
+        "ghidra_environment",
+        "ghidra_session_status",
+        "ghidra_list_projects",
+        "ghidra_list_programs",
+        "ghidra_current_program",
+        "ghidra_list_functions",
+        "ghidra_function_details",
+        "ghidra_decompile_function",
+        "ghidra_search_symbols",
+        "ghidra_call_graph",
+        "ghidra_disassemble",
+        "ghidra_xrefs",
+        "ghidra_list_strings",
+        "ghidra_list_imports",
+        "ghidra_list_entry_points",
+        "ghidra_read_bytes",
+        "ghidra_search_bytes",
+        "ghidra_list_data_types",
+        "ghidra_list_memory_blocks"
+      ],
+      "timeout": 900
+    }
+  }
+}

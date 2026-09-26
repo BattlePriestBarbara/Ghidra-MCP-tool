@@ -1,0 +1,10 @@
+# Ghidra MCP server for Cline - runtime requirements.
+#
+# pyghidra 3.1.0 requires Ghidra 12.0+ and ships with Ghidra 12.1.3 at
+#   D:\ghidra_12.1.3_PUBLIC\Ghidra\Features\PyGhidra\pypkg\dist
+# Install offline with:
+#   .\.venv\Scripts\python.exe -m pip install --no-index --find-links ^
+#       "D:\ghidra_12.1.3_PUBLIC\Ghidra\Features\PyGhidra\pypkg\dist" pyghidra
+pyghidra==3.1.0
+jpype1==1.5.2
+mcp>=2.2.0

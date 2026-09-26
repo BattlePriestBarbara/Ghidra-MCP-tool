@@ -1,0 +1,48 @@
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# Python缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# IDE配置
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 日志文件
+*.log
+
+# 环境变量
+.env
+.env.local
+
+# 编译产物
+*.egg-info/
+dist/
+build/
+
+# --------------------- 本项目（Ghidra MCP）专用 ---------------------
+# Ghidra 工程库：运行时由 ghidra_mcp/config.py:projects_dir() 生成，
+# 内含 .gpr + .rep/ 二进制数据库（Ghidra DB 文件），体积大且与
+# 导入路径/机器绑定，属于可重建的产物，不提交。
+projects/
+*.gpr
+*.rep/
+
+# extract_features.py 的默认输出（默认写在输入二进制所在目录）
+calc_features.json
+
+# 测试/探针留下的临时产物
+tests/output/
+tests/tmp/
