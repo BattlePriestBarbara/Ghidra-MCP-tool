@@ -1,5 +1,6 @@
 [![M8ven Score](https://m8ven.ai/badge/mcp/battlepriestbarbara/ghidra-mcp-tool)](https://m8ven.ai/mcp/battlepriestbarbara/ghidra-mcp-tool)
 [![M8ven Score](https://m8ven.ai/badge/mcp/battlepriestbarbara-ghidra-mcp-tool-jfi1kg?v=c3358808675b58c499889889eca676ad)](https://m8ven.ai/mcp/battlepriestbarbara-ghidra-mcp-tool-jfi1kg)
+[![M8ven Score](https://m8ven.ai/badge/mcp/battlepriestbarbara-ghidra-mcp-tool-jfi1kg)](https://m8ven.ai/mcp/battlepriestbarbara-ghidra-mcp-tool-jfi1kg)
 # Ghidra MCP server for Cline
 
 Exposes Ghidra (headless, via **PyGhidra**) to Cline as MCP tools, so the assistant can
